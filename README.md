@@ -5,8 +5,10 @@
 cf-pages这个js文件是cmliu 大佬的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上面通过部署 Page ，来创建一个免费订阅！
 
 cf-worker vless这个js文件是MisakaNo 大佬的一个开源项目 [ cf-wkrs-pages-vless](https://github.com/Misaka-blog/cf-wkrs-pages-vless) ,可以在Cloudflare上面通过部署workers,来创建一个vless订阅！
+
 源码是老版本的项目，直接部署会有 1101报错。看了cmliu大佬的油管视频，[点击观看视频](https://youtu.be/FE_gJrk2sSc?si=Vl0AtghlyoyIoNhI)
-在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。vle<span style="color:red;">123<span>ss://${userID}@${hostName}
+
+只要在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。vle<span style="color:red;">123<span>ss://${userID}@${hostName}
 
 ```
 function getVLESSConfig(userID, hostName) {
