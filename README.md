@@ -2,7 +2,7 @@
 
 ### 前言鸣谢
 
-#### cf-workers vless这个js文件是[MisakaNo 大佬主页](https://github.com/Misaka-blog)的一个开源项目 [ cf-wkrs-pages-vless](https://github.com/Misaka-blog/cf-wkrs-pages-vless) 之前的老版本的项目源码,可以在Cloudflare上面通过部署workers,来创建一个vless节点！是我好几个月之前的看了MisakaNo的blog和油管视频去部署的Cloudflare worker vless节点。
+#### cf-workers vless这个[js文件](https://github.com/gudong1012/Cloudflare-workers-vless/blob/main/cf-workers%20vless%20.js)是[MisakaNo 大佬主页](https://github.com/Misaka-blog)的一个开源项目 [ cf-wkrs-pages-vless](https://github.com/Misaka-blog/cf-wkrs-pages-vless) 之前的老版本的项目源码,可以在Cloudflare上面通过部署workers,来创建一个vless节点！是我好几个月之前的看了MisakaNo的blog和油管视频去部署的Cloudflare worker vless节点。
 
 #### 现在如果复制粘贴直接部署在Cloudlfare worker打开网站，会有 1101报错。但是看了cmliu大佬的油管视频，[点击观看视频](https://youtu.be/FE_gJrk2sSc?si=Vl0AtghlyoyIoNhI)，知道怎么去解决这个问题了，还是很感谢cmliu大佬的，cm大佬喂饭，干货满满。
 
