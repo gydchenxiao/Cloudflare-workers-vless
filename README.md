@@ -21,7 +21,7 @@ Cloudflare Workers 是 Cloudflare 提供的一种服务，它允许开发者在�
 
 Cloudflare Workers 可以用来处理 HTTP 请求，从而允许开发者通过编写 JavaScript 代码来实现各种功能，例如路由请求、修改请求和响应、执行身份验证、实现缓存策略等。
 
-## 准备工作
+### 准备工作
 
 1. 注册 Cloudflare 账号，[注册地址](https://dash.cloudflare.com/sign-up)
 
