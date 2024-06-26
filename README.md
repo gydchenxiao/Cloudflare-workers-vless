@@ -4,9 +4,9 @@
 
 cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上面通过部署 Page ，来创建一个免费订阅！
 
-cf-workers vless这个js文件是[MisakaNo 大佬主页](https://github.com/Misaka-blog)的一个开源项目 [ cf-wkrs-pages-vless](https://github.com/Misaka-blog/cf-wkrs-pages-vless) 之前的老版本的项目源码,可以在Cloudflare上面通过部署workers,来创建一个vless订阅！
+cf-workers vless这个js文件是[MisakaNo 大佬主页](https://github.com/Misaka-blog)的一个开源项目 [ cf-wkrs-pages-vless](https://github.com/Misaka-blog/cf-wkrs-pages-vless) 之前的老版本的项目源码,可以在Cloudflare上面通过部署workers,来创建一个vless订阅！是我好几个月之前的看MisakaNo的blog部署的Cloudflare workers vless节点。
 
-现在如果复制粘贴直接部署在Cloudlfare workers打开网站会有 1101报错。但是看了cmliu大佬的油管视频，[点击观看视频](https://youtu.be/FE_gJrk2sSc?si=Vl0AtghlyoyIoNhI)
+现在如果复制粘贴直接部署在Cloudlfare workers打开网站，会有 1101报错。但是看了cmliu大佬的油管视频，[点击观看视频](https://youtu.be/FE_gJrk2sSc?si=Vl0AtghlyoyIoNhI)
 
 只要在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。（代码第749行）混淆字符串防止被Cloudflare杀死，vle<span style="color:red;">123</span>ss://${userID}@${hostName}
 
