@@ -6,9 +6,9 @@
 
 #### 现在如果复制粘贴直接部署在Cloudlfare worker打开网站，会有 1101报错。但是看了cmliu大佬的油管视频，[点击观看视频](https://youtu.be/FE_gJrk2sSc?si=Vl0AtghlyoyIoNhI)，知道怎么去解决这个问题了，还是很感谢cmliu大佬的，cm大佬喂饭，干货满满。
 
-#### 只要在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。（代码第749行）混淆字符串防止被Cloudflare杀死，vle<span style="color:red;">123</span>ss://${userID}@${hostName}
+#### 只要在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。（代码第749行）通过混淆特殊的字符串防止被Cloudflare杀死，vle<span style="color:red;">123</span>ss://${userID}@${hostName}
 
-#### cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上面通过部署 Page ，来创建一个免费订阅！
+#### cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上通过部署Page，来创建一个免费节点订阅！
 
 ```
 function getVLESSConfig(userID, hostName) {
