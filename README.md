@@ -8,13 +8,17 @@
 
 #### 只要在代码最后vless://${userID}@${hostName}里vless中添加数字123就可以正常打开。（代码第749行）通过混淆特殊的字符串防止被Cloudflare杀死，vle<span style="color:red;">123</span>ss://${userID}@${hostName}
 
-#### cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上通过部署Page，来创建一个免费节点订阅！
 
 ```
 function getVLESSConfig(userID, hostName) {
 const vlessLink = `vle123ss://${userID}@${hostName}:80?encryption=none&security=none&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`
 const vlessTlsLink = `vle123ss://${userID}@${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`
 ```
+
+
+#### cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上通过部署Page，来创建一个免费节点订阅！
+
+
 ### 何为 Cloudflare Workers?
 
 Cloudflare Workers 是 Cloudflare 提供的一种服务，它允许开发者在全球分布的边缘服务器上运行自定义的 JavaScript 代码。
