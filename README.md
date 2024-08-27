@@ -16,9 +16,6 @@ const vlessTlsLink = `vle123ss://${userID}@${hostName}:443?encryption=none&secur
 ```
 
 
-#### cf-pages这个js文件是[cmliu 大佬主页](https://github.com/cmliu)的一个开源项目 [CF-Workers-SUB](https://github.com/cmliu/CF-Workers-SUB) ，使得我们可以免费的在 Cloudflare 上通过部署Page，来创建一个免费节点订阅！
-
-
 ### 何为 Cloudflare Workers?
 
 Cloudflare Workers 是 Cloudflare 提供的一种服务，它允许开发者在全球分布的边缘服务器上运行自定义的 JavaScript 代码。
