@@ -1,5 +1,6 @@
 // <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:05 UTC<!--GAMFC-END-->.
 // @ts-ignore
+//cmliu大佬的_worker.js的文件的复制备份
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
