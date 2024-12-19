@@ -32,7 +32,7 @@ Cloudflare Workers 可以用来处理 HTTP 请求，从而允许开发者通过�
 
    购买地址：[点击访问](https://www.namesilo.com/)
 
-   也可以在Spaceship购买数字.xyz域名
+   推荐也可以在Spaceship购买数字.xyz域名
 
    购买地址：[点击访问](https://www.spaceship.com/)
 
